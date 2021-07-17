@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+    4-line_up module
+"""
+
+
 def add_arrays(arr1, arr2):
     """ function that adds two arrays element-wise
 
