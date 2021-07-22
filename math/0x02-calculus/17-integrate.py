@@ -12,6 +12,8 @@ def poly_integral(poly, C=0):
         return None
     x = []
     x.append(C)
+    if len(poly) ==1 and poly[0] == 0:
+        return x
     for i in range(len(poly)):
         if type(poly[i]) != int:
             return None
