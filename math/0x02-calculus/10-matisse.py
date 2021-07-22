@@ -15,4 +15,6 @@ def poly_derivative(poly):
         if type(poly[i]) != int:
             return None
         x.append(poly[i] * i)
+    if len(x) == 0:
+        x.append(0)
     return x
